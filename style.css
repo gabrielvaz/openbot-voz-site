@@ -1,0 +1,12 @@
+:root { color-scheme: light dark; --accent: #6960f1; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; background: Canvas; color: CanvasText; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+header img { width: 64px; height: 64px; border-radius: 14px; }
+h1 { font-size: 28px; margin: 0; line-height: 1.2; }
+h2 { font-size: 20px; margin: 36px 0 8px; }
+p, li { color: color-mix(in srgb, CanvasText 85%, Canvas); }
+a { color: var(--accent); }
+nav { margin-top: 40px; font-size: 15px; display: flex; gap: 20px; flex-wrap: wrap; }
+.muted { font-size: 14px; opacity: .7; }
